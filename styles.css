@@ -1,0 +1,103 @@
+body {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+
+/*---------- HEADER START ----------*/
+
+/*----- HEADER TOP -----*/
+
+.header-top {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 3px 30px;
+  background-color: #ad2100;
+}
+
+.header-top a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-top a:visited {
+  color: #fff;
+}
+
+.email {
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+.icons {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.icons i {
+  padding: 0 5px;
+}
+
+.contact {
+  flex: 1 1 auto;
+  text-align: right;
+}
+
+/*----- HEADER BOTTOM   -----*/
+
+.header-bottom {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-logo {
+  flex: 2 1 auto;
+}
+
+.main-logo img {
+  display: inline;
+}
+
+.nav-bar {
+  flex: 1 1 auto;
+}
+
+.nav-bar li {
+  display: inline;
+  padding: 8px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu .active a {
+  color: #ad2100;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #616361;
+}
+
+.search-icon {
+  flex: 1 1 auto;
+}
+/*---------- HEADER END ----------*/
+
+/*---------- MAIN START ----------*/
+
+.container {
+  padding: 0 18px;
+  display: flex;
+}
+
+.slide-show img {
+  width: 450px;
+}
+
+.dark_brown {
+  color: #ad2100;
+  font-weight: bold;
+}
