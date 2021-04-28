@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 4em;
+}
+
 /*---------- HEADER START ----------*/
 
 /*----- HEADER TOP -----*/
@@ -87,15 +91,39 @@ body {
 /*---------- MAIN START ----------*/
 
 .container {
-  padding: 0 18px;
+  padding: 0 20px;
   display: flex;
 }
 
+.slide-show {
+  flex: 1 1 auto;
+}
+
 .slide-show img {
-  width: 450px;
+  width: 600px;
+}
+
+.intro {
+  flex: 1 1 auto;
+  padding: 0 30px;
 }
 
 .dark_brown {
   color: #ad2100;
-  font-weight: bold;
+}
+
+.article {
+  font-size: 20px;
+}
+
+.main-button {
+  padding: 20px 70px;
+  background-color: black;
+  color: #fff;
+  border: 0;
+  margin: 100px 0 0 25px;
+}
+
+a {
+  text-decoration: none;
 }
