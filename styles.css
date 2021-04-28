@@ -7,6 +7,14 @@ h1 {
   font-size: 4em;
 }
 
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 30px;
+}
+
 /*---------- HEADER START ----------*/
 
 /*----- HEADER TOP -----*/
@@ -114,6 +122,7 @@ h1 {
 
 .article {
   font-size: 20px;
+  display: flex;
 }
 
 .main-button {
@@ -126,4 +135,8 @@ h1 {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  text-align: center;
 }
