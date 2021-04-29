@@ -216,7 +216,7 @@ h3 {
   padding: 0;
   font-size: 20px;
   display: flex;
-  align-items: center;
+  align-items: ;
 }
 
 .currency-img {
@@ -290,4 +290,28 @@ h3 {
 .register-now-container {
   background-color: black;
   color: white;
+}
+
+.footer-container {
+  background-color: black;
+  color: #fff;
+  padding: 50px;
+  margin-top: 80px;
+}
+
+.contact-us {
+  flex: 1 1 auto;
+}
+
+.social-links {
+  flex: 1 1 auto;
+}
+
+.news-letter {
+  flex: 1 1 auto;
+}
+
+.copyright {
+  background-color: #ad2100;
+  color: #fff;
 }
